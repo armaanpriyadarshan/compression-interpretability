@@ -13,5 +13,3 @@ def load_model(model_id):
     except Exception as e:
         log.error(f"Failed to load model {model_id}: {str(e)}")
         return None, None
-
-load_model("gpt2")
